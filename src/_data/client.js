@@ -1,16 +1,17 @@
 module.exports = {
-    "name": "Code Stitch Web Designs",
-    "email": "help@codestitch.app",
-    "phoneForTel": "555-779-4407",
-    "phoneFormatted": "(555) 779-4407",
+    "name": "Meldrum NMR Group",
+    "email": "tkmeldrum@wm.edu",
+    "phoneForTel": "757-221-2561",
+    "phoneFormatted": "(757) 221-2561",
     "address": {
-        "lineOne": "First Address Line",
-        "lineTwo": "Second Address Line",
-        "city": "Denver",
-        "state": "CO",
-        "zip": "80206",
+        "lineOne": "Integrated Science Center 1026",
+        "lineTwo": "540 Landrum Drive",
+        "lineThree": "William & Mary",
+        "city": "Williamsburg",
+        "state": "VA",
+        "zip": "23185",
         "country": "US",
-        "mapLink": "https://maps.app.goo.gl/TEdS5KoLC9ZcULuQ6"
+        "mapLink": "https://maps.app.goo.gl/8mRQz23CJkwMwjgMA"
     },
     "socials": {
         "facebook": "https://www.facebook.com/",

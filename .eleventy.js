@@ -1,6 +1,6 @@
 // Imports
 const pluginEleventyNavigation = require("@11ty/eleventy-navigation");
-const pluginMinifier = require("@sherby/eleventy-plugin-files-minifier");
+const pluginMinifier = require("html-minifier-terser");
 const pluginSitemap = require("@quasibit/eleventy-plugin-sitemap");
 
 // Configs

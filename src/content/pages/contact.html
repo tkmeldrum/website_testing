@@ -1,5 +1,5 @@
 ---
-title: 'Contact | Code Stitch Web Designs'
+title: 'Contact | Meldrum NMR Group'
 description: 'Meta description for the page'
 preloadImg: '/assets/images/cabinets2.jpg'
 permalink: 'contact/'
@@ -76,12 +76,14 @@ eleventyNavigation:
                 <!--Address-->
                 <span class="cs-header">Address</span>
                 <a class="cs-link" href="{{client.address.mapLink}}">
-                    {{client.address.lineOne}},
+                    {{client.address.lineOne}}
                     <br/>
-                    {{client.address.lineTwo}},
+                    {{client.address.lineTwo}}
+                    <br/>
+                    {{client.address.lineThree}}
                     <br/>
                     <span class="cs-block">
-                        {{client.address.city}}
+                        {{client.address.city}},
                         {{client.address.state}}
                         {{client.address.zip}}
                     </span>

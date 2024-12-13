@@ -5,10 +5,7 @@
 <footer id="footer">
     <div class="container">
         <div class="left-section">
-            <a class="logo" href="/"><img loading="lazy" decoding="async" src="/assets/svgs/logo-white.svg" alt="logo" width="264" height="78"></a>
-            <p>
-                Extra content if you need it, if not you can delete this whole p tag. I usually do.
-            </p>
+            <a class="logo" href="/"><img loading="lazy" decoding="async" src="/assets/images/logos/group/logo-vert-darkbg.svg" height="256" width="248" alt="logo"></a>
         </div>
         <div class="right-section">
             <div class="lists">
@@ -20,27 +17,22 @@
                         <a href="/">Home</a>
                     </li>
                     <li>
-                        <a href="/about">About Us</a>
+                        <a href="/peoplet">People</a>
                     </li>
                     <li>
                         <a href="/projects">Projects</a>
                     </li>
                     <li>
-                        <a href="/reviews">Reviews</a>
+                        <a href="/products">Products</a>
+                    </li>
+                    <li>
+                        <a href="/news">News</a>
                     </li>
                     <li>
                         <a href="/contact">Contact</a>
                     </li>
                 </ul>
-                <ul>
-                    <li>
-                        <h2>Services</h2>
-                    </li>
-                    <li>Service1</li>
-                    <li>Service2</li>
-                    <li>Service4</li>
-                    <li>Service5</li>
-                </ul>
+
                 <ul>
                     <li>
                         <h2>Contact</h2>
@@ -49,7 +41,8 @@
                         <a href="/contact">
                             {{client.address.lineOne}}<br>
                             {{client.address.lineTwo}}<br>
-                            {{client.address.city}}
+                            {{client.address.lineThree}}<br>
+                            {{client.address.city}},
                             {{client.address.state}}
                             {{client.address.zip}}
                         </a>
@@ -61,7 +54,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="mailto:{{client.email}}">Click to Email</a>
+                        <a href="mailto:{{client.email}}">Email Us</a>
                     </li>
                 </ul>
             </div>
@@ -69,8 +62,8 @@
     </div>
 
     <div class="credit">
-        <span>Designed and Hand Coded by</span>
-        <a href="/" target="_blank" rel="noopener">Your Company Name</a>
+        <span>Designed by</span>
+        <a href="/" target="_blank" rel="noopener">the Meldrum Group</a>
         <span class="copyright">
             Copyright {% year %} - Present</span>
     </div>
